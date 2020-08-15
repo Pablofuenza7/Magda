@@ -28,7 +28,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg">
       <a class="navbar-brand" href="#">M</a>
       <button
         class="navbar-toggler"
@@ -43,31 +43,31 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link active text-white" href="#"
+          <a class="nav-link active text-white" href="#Sobre mí"
             >Sobre mí<span class="sr-only">(current)</span></a
           >
-          <a class="nav-link active text-white" href="#">Experiencia</a>
-          <a class="nav-link active text-white" href="#">Trabajos</a>
-          <a class="nav-link active text-white" href="#">Contacto</a>
+          <a class="nav-link text-white" href="#Experiencia">Experiencia</a>
+          <a class="nav-link text-white" href="#Trabajo">Trabajos</a>
+          <a class="nav-link text-white" href="#Contacto">Contacto</a>
         </div>
       </div>
     </nav>
 
-    <main class="hero-section">
-      <header>
-        <h1 class="title">YO SOY</h1>
+    <header class="hero-section">
+      <div class="hero-title">
+        <h1 class="title border-bottom border-white">YO SOY</h1>
         <h1 class="subtitle">MAGDALENA</h1>
-      </header>
-    </main>
+      </div>
+    </header>
 
-    <section class="desc-section container my-5">
-      <h2 class="desc-title">
+    <section id="Sobre mí" class="desc-section container d-none d-md-block my-5">
+      <h2 class="desc-title border-bottom border-secondary">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
         ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
         lectus.
       </h2>
       <div class="row">
-        <div class="desc-subtitle1 col-6">
+        <div class="desc-subtitle1 col-md-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
           ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
           lectus. Nullam fermentum turpis et dolor euismod consequat sed sed
@@ -79,7 +79,7 @@
           Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus.
           Nam ac orci id neque posuere aliquam.
         </div>
-        <div class="desc-subtitle2 col-6">
+        <div class="desc-subtitle2 col-md-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
           ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
           lectus. Nullam fermentum turpis et dolor euismod consequat sed sed
@@ -92,32 +92,51 @@
           Nam ac orci id neque posuere aliquam.
         </div>
       </div>
+
+      <button
+        type="button"
+        class="btn btn-dark btn-lg"
+        data-toggle="tooltip"
+        data-placement="right"
+        title="Mi vida en 360°"
+      >
+        Biografía
+      </button>
     </section>
 
-    <section class="exp-section container my-5">
-      <h1>MI EXPERIENCIA</h1>
+    <section id="Experiencia" class="exp-section container my-5">
+      <h1 class="border-bottom border-secondary">MI EXPERIENCIA</h1>
 
       <div class="row">
-        <div class="exp-icons col-6">
+        <div class="exp-icons text-center col-md-6">
           <i class="fab fa-empire"></i>
           <h3 class="my-4">Stormtrooper</h3>
           <h2 class="my-4">1980 - 2014</h2>
         </div>
-        <div class="exp-icons col-6">
+        <div class="exp-icons text-center col-md-6">
           <i class="fab fa-medium"></i>
           <h3 class="my-4">Desarrolladora Rails</h3>
           <h2 class="my-4">2014 - 2018</h2>
         </div>
+        <button
+          type="button"
+          class="btn btn-lg btn-warning"
+          data-toggle="popover"
+          title="Suscríbete"
+          data-content="Clickea este botón, suscribete en mi página, y participa todas las semanas de los beneficios de las marcas patrocinadoras de mi página."
+        >
+          Suscribete
+        </button>
       </div>
     </section>
 
-    <section class="trab-section my-5">
-      <h1>MIS ÚLTIMOS TRABAJOS</h1>
+    <section id="Trabajo" class="trab-section my-5">
+      <h1 class="pt-5 border-bottom border-white">MIS ÚLTIMOS TRABAJOS</h1>
 
       <div class="container">
         <div class="row">
-          <div class="card-deck">
-            <div class="card col-4">
+          <div class="card-deck m-5">
+            <div class="card col-md-4">
               <img
                 src="assets/img/meet_coffee.png"
                 class="card-img-top"
@@ -133,7 +152,7 @@
               </div>
             </div>
 
-            <div class="card col-4">
+            <div class="card col-md-4">
               <img
                 src="assets/img/iguana_page.png"
                 class="card-img-top"
@@ -149,7 +168,7 @@
               </div>
             </div>
 
-            <div class="card col-4">
+            <div class="card col-md-4">
               <img
                 src="assets/img/suricata.png"
                 class="card-img-top"
@@ -166,8 +185,8 @@
             </div>
           </div>
 
-          <div class="card-deck my-5">
-            <div class="card col-4">
+          <div class="card-deck m-5">
+            <div class="card col-md-4">
               <img src="assets/img/cuppon.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Cuppon</h5>
@@ -178,7 +197,7 @@
                 </p>
               </div>
             </div>
-            <div class="card col-4">
+            <div class="card col-md-4">
               <img
                 src="assets/img/ricomida.png"
                 class="card-img-top"
@@ -193,7 +212,7 @@
                 </p>
               </div>
             </div>
-            <div class="card col-4">
+            <div class="card col-md-4">
               <img src="assets/img/dmark.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">DMark</h5>
@@ -209,10 +228,10 @@
       </div>
     </section>
 
-    <section class="form-section my-5">
-      <h1 class="contact">CONTACTO</h1>
-      
-      <div class="form">
+    <section id="Contacto" class="form-section my-5">
+      <h1 class="contact border-bottom border-secondary">CONTACTO</h1>
+
+      <div class="form mt-5">
         <a
           class="typeform-share button"
           href="https://form.typeform.com/to/DUK6ZOmn"
@@ -220,7 +239,7 @@
           style="
             display: inline-block;
             text-decoration: none;
-            background-color: #3a7685;
+            background-color: #373a3c;
             color: white;
             cursor: pointer;
             font-family: Helvetica, Arial, sans-serif;
@@ -266,15 +285,24 @@
       </div>
     </section>
 
-    <footer class="footer d-flex">
-      <h1 class="name">MAGDALENA</h1>
-      <div class="icons">
-        <a href="www.github.com"><i class="fab fa-github-square fa-3x"></i></a>
-        <a href="www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i></a>
-        <a href="www.twitter.com"><i class="fab fa-twitter-square fa-3x"></i></a>
-        <a href="www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i></a>
+    <footer class="footer">
+      <div class="d-inline-block">
+        <h1 class="name">MAGDALENA</h1>
       </div>
-    
+      <div class="icons d-inline-block">
+        <a href="https://github.com"
+          ><i class="fab fa-github-square text-white fa-3x mx-3"></i
+        ></a>
+        <a href="https://linkedin.com"
+          ><i class="fab fa-linkedin text-white fa-3x mx-3"></i
+        ></a>
+        <a href="https://twitter.com"
+          ><i class="fab fa-twitter-square text-white fa-3x mx-3"></i
+        ></a>
+        <a href="https://facebook.com"
+          ><i class="fab fa-facebook-square text-white fa-3x mx-3"></i
+        ></a>
+      </div>
     </footer>
 
     <script
