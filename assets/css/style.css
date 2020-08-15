@@ -1,0 +1,187 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-section {
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    height: 737px;
+}
+
+nav,.trab-section,footer {
+    background-color: #660066;
+}
+
+nav .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 28px;
+    height: 60px;
+    color: #ffffff;
+    margin-left: 150px;
+}
+
+nav .navbar-nav {
+    margin-right: 150px;
+    color: #ffffff;
+}
+
+.desc-section {
+    width: 1280px;
+    height: 798px;
+}
+
+.desc-section .desc-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    width: 968px;
+    height: 153px;
+    color: #373A3C;
+}
+
+.desc-section .desc-subtitle1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 482px;
+    height: 483px;
+    color: #373A3C;
+    
+    
+
+    
+    
+}
+
+.desc-section .desc-subtitle2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 482px;
+    height: 483px;
+    color: #373A3C;
+    
+    
+    
+
+    
+    
+}
+
+.exp-section {
+    width: 1280px;
+    height: 431px;
+}
+
+.exp-section h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #373A3C;
+    width: 341px;
+    height: 77px;
+    margin-left: 469.5px;
+    margin-right: 469.5px;
+
+}
+
+.exp-section .exp-icons i {
+    color:  #660066;
+    font-size: 150px;
+    
+    
+
+}
+
+.exp-section .exp-icons h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #373A3C;
+    text-align: center;
+
+}
+
+.exp-section .exp-icons h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #373A3C;
+    text-align: center;
+
+}
+
+.trab-section {
+    width: 1280px;
+    height: 982px;
+}
+
+
+
+.trab-section .car-deck .card {
+    width: 316px;
+    height: 317px;
+}
+
+.form-section {
+    width: 1280px;
+    height: 723px;
+}
+
+.form-section .contact {
+    color: #373A3C;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    height: 77px;
+    width: 221px;
+    padding: 80px 531px 200px 528px;
+    text-align: left;
+}
+
+.form-section .form {
+    margin-left: 560px;
+    margin-bottom: 500px;
+    
+    
+}
+
+.footer {
+    width: 1280px;
+    height: 218px;
+}
+
+.footer .name {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    height: 60px;
+    width: 198px;
+    padding-left: 284px;
+    padding-right: 600px;
+    padding-top: 82px;
+    padding-bottom: 76px;
+    text-align: left;
+    
+    
+
+}
+
+.footer .icons {
+    fill: #ffffff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    padding-top: 82px;
+    padding-bottom: 76px;
+
+}
